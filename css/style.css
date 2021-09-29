@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #22343d;
+}
+
+.bg-light-dark {
+  background-color: #1f2e35;
+}
+.navbar-light .navbar-brand {
+  font-size: 1.87rem;
+  font-weight: 700;
+  color: #173a56;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1rem;
+  color: #22343d;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  font-weight: 600;
+}
+.btn-outline-success {
+  color: #173a56;
+  font-weight: 600;
+  border-color: #02897a;
+}
+.btn-success {
+  font-weight: 600;
+  background-color: #02897a;
+  border-color: #02897a;
+}
+.btn-success:hover {
+  background-color: #027466;
+  border-color: #027466;
+}
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #02897a;
+  border-color: #02897a;
+}
+.day-night-btn {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-color: transparent;
+}
+.day-night-btn i {
+  color: #02897a;
+}
+.rounded-3 {
+  border-radius: 0.65rem !important;
+}
+
+.image-filter {
+  filter: brightness(0) invert(1);
+}
+/* ----------------
+   header container
+   ---------------- */
+.work-speed-container h2 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 3.75rem;
+  color: #22343d;
+}
+.work-speed-container p {
+  font-size: 1.13rem;
+  line-height: 1.75rem;
+  color: #22343d;
+}
+.watch-video-btn {
+  border: none;
+  background: transparent;
+  color: #02897a;
+  font-weight: 600;
+  font-size: 1.22rem;
+  text-decoration: underline;
+}
+
+/* ----------------
+   service-product
+   ---------------- */
+
+.service-product {
+  background-position: center bottom;
+  background-image: url(../image/downer-bg.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  padding: 3rem 0;
+}
+
+.service-product-dark-bg {
+  background-image: url(../image/downer-dark-bg.png);
+  background-color: #1f2e35;
+}
+
+.section-heading {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #22343d;
+}
+.service-title {
+  font-weight: 600;
+  font-size: 1.37rem;
+  line-height: 2.1rem;
+  color: #22343d;
+}
+.section-body {
+  font-size: 1rem;
+  line-height: 1.62rem;
+  color: #22343d;
+}
+/* ----------------
+   Management
+   ---------------- */
+
+.management-container {
+  padding: 2rem 0;
+}
+.sub-heading {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #22343d;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #22343d;
+}
+.section-sub-title {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.62rem;
+  color: #22343d;
+}
+
+/* ----------------
+   Customer Support
+   ---------------- */
+.supports {
+  padding-left: 0;
+}
+.supports li {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+/* ----------------
+   Our Expert
+   ---------------- */
+
+.our-expert {
+  background-position: center top;
+  background-image: url(../image/upper-bg.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  padding: 3rem 0;
+}
+
+.our-expert-dark-bg {
+  background-image: url(../image/upper-dark-bg.png);
+  background-color: #1f2e35;
+}
+
+.section-sub-heading {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.62rem;
+}
+.expert-message {
+  margin-bottom: 0;
+}
+
+.message-body {
+  position: relative;
+}
+
+.message-under-shape {
+  position: absolute;
+  left: 20%;
+}
+.message-body-2 {
+  position: relative;
+}
+
+.message-under-shape-2 {
+  position: absolute;
+  right: 20%;
+}
+
+/* ---------------------
+   Contents Strategies
+   --------------------- */
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.card-title:hover {
+  color: #02897a;
+}
+
+/* ---------------------
+   Price Table
+   --------------------- */
+
+.price-card {
+  background-color: #fff;
+}
+.price-card:hover {
+  background-color: #027466;
+  color: #fff;
+}
+.price {
+  font-size: 4.75rem;
+  font-weight: 700;
+  line-height: 6.25rem;
+  color: #02897a;
+}
+.price-card:hover .price {
+  color: #fff;
+}
+.price-card-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.dollar-symbol {
+  font-weight: 700;
+  color: #027466;
+  font-size: 1.5rem;
+}
+.price-card:hover .dollar-symbol {
+  color: #fff;
+}
+.per-month {
+  color: #afafaf;
+  line-height: 1rem;
+}
+.price-card:hover .per-month {
+  color: #fff;
+}
+.options-text {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.37rem;
+}
+
+.price-card:hover .price-card-btn {
+  background-color: #fff;
+  color: #027466;
+}
+.price-table {
+  position: relative;
+}
+.price-table-under-line {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  width: 80%;
+  border: 1px solid lightgray;
+}
+
+/* ---------------------
+   Client FeedBack
+   --------------------- */
+.rating {
+  color: #f3cd03;
+}
+.customer-name {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 0;
+  color: #02897a;
+}
+.customer-designation {
+  font-weight: 500;
+}
+/* ---------------------
+   Join Compannies
+   --------------------- */
+.join-container {
+  background-color: #02897a;
+  border-radius: 2rem;
+}
+.join-container-title {
+  font-weight: 600;
+  font-size: 1.7rem;
+  color: #fff;
+}
+.btn-light {
+  color: #02897a;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.87rem;
+  padding: 0.4rem 2rem;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.footer-logo-title {
+  font-size: 1.87rem;
+  font-weight: 700;
+  color: #173a56;
+}
+
+.icon-circle {
+  font-size: 1.5rem;
+  color: #02897a;
+  width: 40px;
+  height: 40px;
+  background-color: #edfffc;
+  padding: 10px;
+  line-height: 20px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.footer-title {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.87rem;
+}
+
+.footer-input-box {
+  outline: none;
+  border: 2px solid #02897a;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+.footer-sign-up-btn {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #service-product {
+    padding: 2rem 0;
+  }
+}
+@media (min-width: 1024px) {
+  .work-speed-container h2 {
+    font-size: 2.5rem;
+  }
+  #section-heading {
+    margin-bottom: 5rem;
+  }
+  #service-product {
+    padding: 5rem 0;
+  }
+  .join-container {
+    margin: 0 3rem;
+  }
+  .join-container-title {
+    font-size: 2rem;
+  }
+  .footer-input-box {
+    width: auto;
+  }
+  .footer-sign-up-btn {
+    width: auto;
+  }
+}
+@media (min-width: 1200px) {
+  #service-product {
+    padding: 8rem 0;
+  }
+  .join-container {
+    margin: 0 5rem;
+  }
+}
